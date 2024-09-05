@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+        <style>
+            .grid{
+                display: grid;
+                grid-template-columns: 200px 75px;
+            }
+
+            .edit{
+                background-color: lightblue;
+            }
+
+            .edit2{
+                background-color: lightpink;
+            }
+
+            .grid1{
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+                margin-bottom: 10px;
+            }
+
+            .edit3 {
+                background-color: lightblue;
+            }
+
+            .edit4{
+                background-color: lightpink;
+
+            }
+
+            .edit5{
+                background-color: lightblue;
+            }
+
+            .grid2{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                row-gap: 20px;
+                column-gap: 20px;
+            }
+
+            .edit6,.edit7,.edit8,.edit9{
+                background-color: lightpink;
+            
+            }
+
+            
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+        <div class="edit">200px</div>
+        <div class="edit2">75px</div>
+        </div>
+
+        <div class="grid1">
+            <div class="edit3">col1</div>
+            <div class="edit4">col2</div>
+            <div class="edit5">col3</div>
+            </div>
+        
+            <div class="grid2">
+                <div class="edit6">col1</div>
+                <div class="edit7">col2</div>
+                <div class="edit8">col3</div>
+                <div class="edit9">col4</div>
+                <div class="edit6">col1</div>
+                <div class="edit7">col2</div>
+                <div class="edit8">col3</div>
+                <div class="edit9">col4</div>
+                </div>
+    </body>
+</html>
